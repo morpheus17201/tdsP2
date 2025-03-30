@@ -1,0 +1,65 @@
+
+Version:          Code 1.98.2 (ddc367ed5c8936efe395cffeec279b04ffd7db78, 2025-03-12T13:32:45.399Z)
+OS Version:       Windows_NT x64 10.0.26100
+CPUs:             Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz (8 x 2112)
+Memory (System):  39.84GB (21.91GB free)
+VM:               0%
+Screen Reader:    no
+Process Argv:     --crash-reporter-id 932bc130-d763-4a59-89c5-714b38dcad74
+GPU Status:       2d_canvas:                              enabled
+                  canvas_oop_rasterization:               enabled_on
+                  direct_rendering_display_compositor:    disabled_off_ok
+                  gpu_compositing:                        enabled
+                  multiple_raster_threads:                enabled_on
+                  opengl:                                 enabled_on
+                  rasterization:                          enabled
+                  raw_draw:                               disabled_off_ok
+                  skia_graphite:                          disabled_off
+                  video_decode:                           enabled
+                  video_encode:                           enabled
+                  vulkan:                                 disabled_off
+                  webgl:                                  enabled
+                  webgl2:                                 enabled
+                  webgpu:                                 enabled
+                  webnn:                                  disabled_off
+
+CPU %	Mem MB	   PID	Process
+    0	   152	 14176	code main
+    0	   608	  3492	extensionHost [1]
+    0	   422	 13868	     electron-nodejs (bundle.js )
+    1	   110	 20844	     "C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2501.30.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe" /SESSION:PjLtrzJLRUmOX9bFmkx8dAEgRAA6AFwAVABEAFMAXAB0AGQAcwBQADEAXAB0AGQAcwBQAHIAbwBqAGUAYwB0ADEAXABhAHAAcAAuAGwAbwBnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCgABpA0AAEsCAABUAwAAAAAAAA==
+    0	   144	 20920	     electron-nodejs (server.js )
+    0	    98	 22388	     "C:\Users\saran\AppData\Local\Programs\Microsoft VS Code\Code.exe" "c:\Users\saran\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\markdown-language-features\dist\serverWorkerMain" --node-ipc --clientProcessId=3492
+    0	   114	  5888	   window
+    0	    33	  6060	   crashpad-handler
+    0	   114	  6668	   window
+    1	   304	 13700	window [1] (app.py - p2 - Visual Studio Code)
+    0	   135	 15820	ptyHost
+    0	     8	  9072	     conpty-agent
+    0	     7	 12984	     C:\WINDOWS\System32\wsl.exe -d Ubuntu
+    0	    12	 24156	       C:\WINDOWS\System32\wsl.exe -d Ubuntu
+    0	    12	 20128	          --distro-id {cfce37d8-1ef7-4044-8b1f-87d12ff61022} --vm-id {2b772944-e44a-4bac-8a28-e3d60b219a95} --handle 788 --event 816 --parent 820
+    0	    10	 23168	           C:\WINDOWS\system32\conhost.exe 0x4
+    0	   115	 22860	         electron-nodejs (cli.js )
+    0	   143	 18380	           "C:\Users\saran\AppData\Local\Programs\Microsoft VS Code\Code.exe" --status --remote=wsl+Ubuntu
+    0	    96	 17980	             crashpad-handler
+    0	   101	 19844	             utility-network-service
+    0	   116	 23740	             gpu-process
+    0	     8	 14620	     conpty-agent
+    0	    71	 15296	     C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\saran\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0	     8	 21928	     conpty-agent
+    0	    71	 22120	     C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\saran\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0	    71	 22988	     C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\saran\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0	     8	 24356	     conpty-agent
+    0	   123	 16276	shared-process
+    0	    50	 18304	   utility-network-service
+    0	   211	 19360	   gpu-process
+    0	   134	 20492	   window
+    0	   111	 22188	fileWatcher [1]
+
+Workspace Stats: 
+|  Window (app.py - p2 - Visual Studio Code)
+|    Folder (p2): 4766 files
+|      File types: py(2358) pyi(280) so(67) f90(60) csv(30) txt(29) h(28)
+|                  f(23) typed(20) md(9)
+|      Conf files:
